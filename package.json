@@ -2,7 +2,6 @@
   "name": "parcel-vue-template",
   "version": "1.0.0",
   "description": "Very simple start template for Vue with Parcel.",
-  "main": "src/main.js",
   "scripts": {
     "serve": "parcel serve src/index.html",
     "build": "parcel build src/index.html"
@@ -20,15 +19,15 @@
   },
   "homepage": "https://github.com/yrgohrm/parcel-vue-template#readme",
   "devDependencies": {
+    "@parcel/transformer-vue": "^2.3.2",
     "@vue/component-compiler-utils": "^3.1.2",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.3.2",
     "prettier": "^2.0.5",
     "sass": "^1.26.3",
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
-    "vue": "^2.6.11",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-router": "^3.1.6"
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
   }
 }

@@ -105,3 +105,6 @@ dist
 
 # VS Code Settings
 .vscode/
+
+# Parcel
+.parcel-cache
